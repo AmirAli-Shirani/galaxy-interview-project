@@ -1,5 +1,8 @@
 import "./globals.css";
 import Particle from "@/app/(components)/Particles";
+import "react-toastify/dist/ReactToastify.css";
+import {ToastContainer} from "react-toastify";
+import React from "react";
 
 export const metadata = {
     title: "Galaxy",
@@ -11,6 +14,7 @@ export default function RootLayout({children}) {
         <html lang="en">
         <body>
         <Particle/>
+        <ToastContainer />
         {children}
         </body>
         </html>
