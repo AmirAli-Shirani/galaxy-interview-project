@@ -16,7 +16,7 @@ const GuideModal = () => {
                     <p className="text-gray-100 mb-6 text-lg">
                         برای بازی کردن مراحل زیر را دنبال کنید:
                     </p>
-                    <ol className="list-decimal text-left pl-5 mb-6 text-gray-200">
+                    <ol style={{direction : "rtl"}} className="list-decimal text-left pr-5 mb-6 text-gray-200">
                         <li>سیاره‌ها را به مدارهای صحیح خود بکشید.</li>
                         <li>سیاره‌ها را مطابق موقعیت‌های مشخص شده، مرتب کنید.</li>
                         <li>از بازی لذت ببرید و در مورد منظومه شمسی بیشتر بدانید!</li>

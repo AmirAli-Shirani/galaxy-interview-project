@@ -20,9 +20,9 @@ export const GalaxyContextProvider = ({children}) => {
     const handleDrop = (item, targetPlanetName) => {
         const isCorrect = item.name === targetPlanetName;
         if (isCorrect) {
-            toast.success("Planet dropped successfully!", {icon: "✅"});
+            toast.success("سیاره در جای درست خود قرار گرفت!", {icon: "✅"});
         } else {
-            toast.error("Planet dropped false!", {icon: "❌"});
+            toast.error("سیاره در جای اشتباهی قرار گرفت!", {icon: "🔄"});
         }
 
         setCorrectDrops((prev) => ({
